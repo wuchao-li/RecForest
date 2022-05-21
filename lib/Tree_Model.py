@@ -73,6 +73,7 @@ class Tree:
         for i in range(self.tree_height):
             self.card[i] = self.k ** (self.tree_height - i - 1)# recover to the code
         self.card = self.card.to('cuda')
+        self.code_to_item = self.code_to_item.to('cuda')
     
     def read_tree(self, code_to_item_file, item_to_code_file,k=4):
 
