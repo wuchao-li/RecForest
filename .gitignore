@@ -1,2 +1,4 @@
 .ipynb_checkpoints
 */__pycache__
+JTM_variant.py
+test_JTM_variant.ipynb
